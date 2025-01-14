@@ -1,11 +1,14 @@
 import React from 'react'
+import Hero from './Components/Hero'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>React App</h1>
+      <div className='h-screen'>
+          <Hero />
+      </div>
     </>
   )
 }
