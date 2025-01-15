@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from './Components/Hero'
+import Gallery from './Components/Gallery'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <div className='h-screen'>
           <Hero />
+          <Gallery />
       </div>
     </>
   )
