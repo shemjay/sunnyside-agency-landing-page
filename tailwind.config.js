@@ -7,6 +7,13 @@ export default {
         Barlow: ["barlow", "serif"],
         Fraunces: ["fraunces", "serif"],
       },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
       colors: {
         primary: {
           softRed: 'hsl(7, 99%, 70%)',
