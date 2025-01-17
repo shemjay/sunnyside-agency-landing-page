@@ -33,8 +33,8 @@ const Gallery = () => {
 
       <div className="gallery__item-image bg-[url('/images/desktop/image-graphic-design.jpg')] relative">
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-2 text-center mb-16">
-          <h2 className="font-Fraunces font-bold pb-4 text-4xl">Graphic Design</h2>
-          <p>
+          <h2 className="font-Fraunces font-bold pb-4 text-4xl text-primary-darkDesaturatedCyan">Graphic Design</h2>
+          <p className="text-primary-darkDesaturatedCyan">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             euismod urna id malesuada dictum. Proin eget
           </p>
