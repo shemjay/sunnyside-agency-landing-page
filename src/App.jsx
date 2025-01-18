@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className='h-screen'>
+      <div className='h-screen transition-all duration-300 ease-in-out overflow-x-hidden'>
           <Hero />
           <Gallery />
           <Testimonials />
