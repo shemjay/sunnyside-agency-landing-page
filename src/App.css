@@ -1,7 +1,23 @@
 .gallery__item {
-    @apply w-full flex items-start justify-center flex-col p-36 gap-8
+    @apply w-full flex items-start justify-center flex-col p-12 md:p-24 lg:p-32 gap-8
 }
 
 .gallery__item-image {
     @apply bg-cover bg-center w-full h-screen
+}
+
+.link__underline {
+    @apply relative inline-block
+}
+
+.link__underline::after {
+    transition: all duration 300ms ease-in-out;
+    content: '';
+    @apply absolute ;
+    left: -5%;
+    right: -5%;
+    bottom: -1px; 
+    height: 9px; 
+    border-radius: 3px; 
+    z-index: -1;
 }

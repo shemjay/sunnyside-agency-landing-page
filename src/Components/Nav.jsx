@@ -21,7 +21,7 @@ const Nav = () => {
         <li className='font-Barlow cursor-pointer sm:hover:underline'><a href="#">About</a></li>
         <li className='font-Barlow cursor-pointer sm:hover:underline'><a href="#">Services</a></li>
         <li className='font-Barlow cursor-pointer sm:hover:underline'><a href="#">Project</a></li>
-        <li><button className={`${isOpen ? "bg-primary-yellow" : "bg-neutral-white"} uppercase font-Fraunces font-bold px-6 py-2 bg-neutral-white text-black rounded-full sm:hover:bg-opacity-35`}>Contact</button></li>
+        <li><button className={`${isOpen ? "bg-primary-yellow" : "bg-neutral-white"} uppercase font-Fraunces font-bold px-6 py-2 bg-neutral-white text-black rounded-full sm:hover:bg-opacity-35 transition-all duration-300 ease-in-out `}>Contact</button></li>
         {/*THIS IS THE TIP OF THE DIV CURRENTLY NOT VISIBLE <div className={`${isOpen ? "absolute top-0 right-[-20px] w-0 h-0 border-l-[10px] border-r-[10px] border-t-[10px] border-transparent border-t-teal-500" : "hidden"}`}></div> */}
       </ul>
 

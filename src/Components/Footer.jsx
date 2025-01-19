@@ -7,12 +7,12 @@ import { ReactComponent as PinterestIcon } from "../../images/icon-pinterest.svg
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center p-8 bg-[hsl(168,34%,41%)]">
+    <div className="flex flex-col items-center p-8 bg-primary-darkModerateCyan">
       <div className="w-40 overflow-hidden cursor-pointer p-4 flex items-center bg-transparent">
-        <LogoIcon className="w-40 bg-transparent" />
+        <LogoIcon className="w-40 bg-transparent text-[#2C7566]" />
       </div>
 
-      <ul className="flex flex-row gap-x-12 mt-4 font-Barlow text-primary-darkBlue">
+      <ul className="flex flex-row gap-x-12 mt-4 font-Barlow text-[#2C7566]">
         <li>
           <a href="#">About</a>
         </li>

@@ -5,14 +5,14 @@ import Jennie from "../../images/image-jennie.jpg";
 
 const Testimonials = () => {
   return (
-    <div className="w-full  flex items-center flex-col p-14 gap-8">
+    <div className="w-full flex items-center flex-col p-14 gap-8">
       <h1 className="font-Fraunces font-bold text-2xl uppercase text-neutral-darkGrayishBlue tracking-widest">
         Client Testimonials
       </h1>
 
-      <div className="grid grid-cols-3">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         {/* Grid Item */}
-        <div className="flex flex-col items-center justify-center w-full p-4 gap-14">
+        <div className="flex flex-col items-center justify-center w-full p-4 sm:gap-4 lg:gap-14">
           <div className="overflow-hidden rounded-full w-16">
             <img className="w-16 object-cover" src={Emily} alt="" />
           </div>
@@ -29,7 +29,7 @@ const Testimonials = () => {
         </div>
 
         {/* Grid Item */}
-        <div className="flex flex-col items-center justify-center w-full p-4 gap-14">
+        <div className="flex flex-col items-center justify-center w-full p-4 sm:gap-4 lg:gap-14">
           <div className="overflow-hidden rounded-full w-16">
             <img className="w-16 object-cover" src={Thomas} alt="" />
           </div>
@@ -46,7 +46,7 @@ const Testimonials = () => {
         </div>
 
         {/* Grid Item */}
-        <div className="flex flex-col items-center justify-center w-full p-4 gap-14">
+        <div className="flex flex-col items-center justify-center w-full p-4 sm:gap-4 lg:gap-14">
           <div className="overflow-hidden rounded-full w-16">
             <img className="w-16 object-cover" src={Jennie} alt="" />
           </div>

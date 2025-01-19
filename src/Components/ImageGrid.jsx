@@ -6,7 +6,7 @@ import Sugar from '../../images/desktop/image-gallery-sugarcubes.jpg'
 
 const ImageGrid = () => {
   return (
-    <div className='grid grid-cols-4'>
+    <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4'>
       {/* Gallery Image */}
       <div className='overflow-hidden w-full'>
         <img src={Milkbottles} alt="" />  
