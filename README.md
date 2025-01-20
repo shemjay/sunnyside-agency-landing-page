@@ -37,7 +37,7 @@
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Fix SVGR bug](https://stackoverflow.com/questions/77284472/importing-svg-as-reactcomponent-in-vite-ambiguous-indirect-export-reactcompon) - This was useful to fix a bug with React SVGR library by using svgr/rollup library instead
 
 ## Author
 
