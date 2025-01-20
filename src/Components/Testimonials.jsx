@@ -6,7 +6,7 @@ import Jennie from "../../images/image-jennie.jpg";
 const Testimonials = () => {
   return (
     <div className="w-full flex items-center flex-col p-14 gap-8">
-      <h1 className="font-Fraunces font-bold text-2xl uppercase text-neutral-darkGrayishBlue tracking-widest">
+      <h1 className="font-Fraunces font-bold text-center text-2xl uppercase text-neutral-darkGrayishBlue tracking-widest">
         Client Testimonials
       </h1>
 

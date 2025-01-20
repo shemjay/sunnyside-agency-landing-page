@@ -17,12 +17,12 @@ const Nav = () => {
 
       
 
-      <ul className={`${isOpen ? "flex bg-white text-neutral-darkGrayishBlue gap-4 flex-col items-center mt-6" : "hidden"} sm:flex sm:w-auto absolute items-center justify-center sm:relative top-full left-0 w-full p-4 gap-12 bg-transparent`}>
+      <ul className={`${isOpen ? "flex bg-white text-neutral-darkGrayishBlue gap-4 flex-col items-center mt-8 absolute right-[-20%]" : "hidden"} sm:flex sm:w-auto absolute items-center justify-center sm:relative top-full left-0 w-full p-4 gap-12 bg-transparent`}>
         <li className='font-Barlow cursor-pointer sm:hover:underline'><a href="#">About</a></li>
         <li className='font-Barlow cursor-pointer sm:hover:underline'><a href="#">Services</a></li>
         <li className='font-Barlow cursor-pointer sm:hover:underline'><a href="#">Project</a></li>
         <li><button className={`${isOpen ? "bg-primary-yellow" : "bg-neutral-white"} uppercase font-Fraunces font-bold px-6 py-2 bg-neutral-white text-black rounded-full sm:hover:bg-opacity-35 transition-all duration-300 ease-in-out `}>Contact</button></li>
-        {/*THIS IS THE TIP OF THE DIV CURRENTLY NOT VISIBLE <div className={`${isOpen ? "absolute top-0 right-[-20px] w-0 h-0 border-l-[10px] border-r-[10px] border-t-[10px] border-transparent border-t-teal-500" : "hidden"}`}></div> */}
+        <div className={`${isOpen ? "absolute top-[-15%] right-[20px] w-0 h-0 border-r-[30px] transform -rotate-180 border-t-[40px] border-transparent border-t-neutral-white z-10" : "hidden"}`}></div> 
       </ul>
 
       {/* Hamburger Icon */}

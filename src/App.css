@@ -1,5 +1,5 @@
 .gallery__item {
-    @apply w-full flex items-start justify-center flex-col p-12 md:p-24 lg:p-32 gap-8
+    @apply w-full flex items-start justify-center flex-col p-16 md:p-24 lg:p-32 gap-8
 }
 
 .gallery__item-image {

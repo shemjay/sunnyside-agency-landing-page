@@ -14,9 +14,9 @@ const Gallery = () => {
           <a href="#" className="link__underline after:bg-primary-yellow after:opacity-45 hover:after:opacity-100">Learn More</a>
         </h2>
       </div>
-      <div className="gallery__item-image bg-[url('/images/desktop/image-transform.jpg')]"></div>
+      <div className="gallery__item-image bg-[url('/images/mobile/image-transform.jpg')] md:bg-[url('/images/desktop/image-transform.jpg')]"></div>
 
-      <div className="gallery__item-image bg-[url('/images/desktop/image-stand-out.jpg')]"></div>
+      <div className="gallery__item-image bg-[url('/images/mobile/image-stand-out.jpg')] md:bg-[url('/images/desktop/image-stand-out.jpg')]"></div>
 
       <div className="gallery__item">
         <p className="font-Fraunces text-4xl font-bold">Transform your brand</p>
@@ -30,7 +30,7 @@ const Gallery = () => {
         </h2>
       </div>
 
-      <div className="gallery__item-image bg-[url('/images/desktop/image-graphic-design.jpg')] relative">
+      <div className="gallery__item-image bg-[url('/images/mobile/image-graphic-design.jpg')] md:bg-[url('/images/desktop/image-graphic-design.jpg')] relative">
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-2 text-center mb-16">
           <h2 className="font-Fraunces font-bold pb-4 text-4xl text-primary-darkDesaturatedCyan">
             Graphic Design
@@ -43,7 +43,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className="gallery__item-image bg-[url('/images/desktop/image-photography.jpg')] relative">
+      <div className="gallery__item-image bg-[url('/images/mobile/image-photography.jpg')] md:bg-[url('/images/desktop/image-photography.jpg')] relative">
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-2 text-center mb-16 text-primary-darkBlue">
           <h2 className="font-Fraunces font-bold pb-4 text-4xl">Photography</h2>
           <p className="font-Barlow">
